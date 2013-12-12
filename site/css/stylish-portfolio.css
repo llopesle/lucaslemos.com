@@ -173,7 +173,6 @@ h2 {
 	text-align: left !important;
 }
 
-
 /* Intro */
 
 .intro {
@@ -298,6 +297,10 @@ i.section-icon {
 	padding: 32px 12px 10px 12px;
 }
 
+.list-inline > li {
+	padding-top: 30px;
+}
+
 .linkedin a:hover{
 	color: #FFFFFF;
 	background-color: #0274B3 !important;
@@ -367,6 +370,10 @@ i.scroll:hover {
   	padding: 0 !important;	
   }
 	
+  .descubra{
+	margin-bottom: 30px;
+  }
+  
   .callout {
 	background: url(../img/callout.jpg) no-repeat center center scroll; 
   }
