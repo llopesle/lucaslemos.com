@@ -313,6 +313,10 @@ i.section-icon {
 	color: #FFFFFF;
 	background-color: #F1505A !important;
 }
+.google-plus a:hover{
+	color: #FFFFFF;
+	background-color: #DD4B39 !important;
+}
 .github a:hover{
 	color: #FFFFFF;
 	background-color: #262C30 !important;
