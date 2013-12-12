@@ -331,8 +331,13 @@ footer {
   padding-bottom: 10px;
 }
 
+footer img {
+	width: 80px;
+	text-align: center;
+}
+
 .top-scroll {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .top-scroll a {
