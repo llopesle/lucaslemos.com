@@ -1,446 +1,536 @@
-    <!DOCTYPE HTML>
-    <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <title>Legend - One Page Bootstrap Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Styles -->
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+    <meta name="keywords" content="engenharia, mecatrônica, mechatronics, automação, automação industrial, automation, inovação, soluções, tecnologia, scada, supervisão">
+    <meta name="description" content="Lucas Lopes Lemos - Engenheiro Mecatrônico, M.Sc. em Sistemas Mecatrônicos e Micromecatrônicos">
+    <meta name="author" content="Lucas Lopes Lemos">
+
+    <title>Lucas Lopes Lemos | Engineering ideas</title>
+    
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel='stylesheet' id='prettyphoto-css'  href="css/prettyPhoto.css" type='text/css' media='all'>
-    <link href="css/fontello.css" type="text/css" rel="stylesheet">
-    <!--[if lt IE 7]>
-            <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet">  
-        <![endif]-->
-    <!-- Google Web fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <style>
-    body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-    }
-    </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <!-- Load ScrollTo -->
-    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
-    <!-- Load LocalScroll -->
-    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
-    <!-- prettyPhoto Initialization -->
-    <script type="text/javascript" charset="utf-8">
-          $(document).ready(function(){
-            $("a[rel^='prettyPhoto']").prettyPhoto();
-          });
-        </script>
-    </head>
-    <body>
-    <!--******************** NAVBAR ********************-->
-    <div class="navbar-wrapper">
-      <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <h1 class="brand"><a href="#top">Legend!</a></h1>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <nav class="pull-right nav-collapse collapse">
-              <ul id="menu-main" class="nav">
-                <li><a title="portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a title="services" href="#services">Services</a></li>
-                <li><a title="news" href="#news">News</a></li>
-                <li><a title="team" href="#team">Team</a></li>
-                <li><a title="contact" href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.navbar-inner -->
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+      <div class="x-close">
+      		<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
       </div>
-      <!-- /.navbar -->
+      <ul class="sidebar-nav">
+        <li><a href="#top">Início</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#cv">Curriculum Vitae</a>
+        	<ul>
+        		<li><a href="#education">Formação acadêmica</a></li>
+        		<li><a href="#experience">Experiência profissional</a></li>
+        		<li><a href="#languages">Idiomas</a></li>
+        		<li><a href="#skills">Conhecimentos técnicos</a></li>
+        	</ul>
+        </li>
+		<li><a href="#pub">Publicações</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </div>
-    <!-- /.navbar-wrapper -->
-    <div id="top"></div>
-    <!-- ******************** HeaderWrap ********************-->
-    <div id="headerwrap">
-      <header class="clearfix">
-        <h1><span>Legend!</span> We make web a beautiful place.</h1>
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <h2>Signup for our Newsletter to be updated</h2>
-              <input type="text" name="your-email" placeholder="you@yourmail.com" class="cform-text" size="40" title="your email">
-              <input type="submit" value="Notify me" class="cform-submit">
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <ul class="icon">
-                <li><a href="#" target="_blank"><i class="icon-pinterest-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-facebook-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-twitter-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-gplus-circled"></i></a></li>
-                <li><a href="#" target="_blank"><i class="icon-skype-circled"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
+    <!-- /Side Menu -->
+  
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+      	<a href="#contact"><img style="position: absolute; top: 0; left: 0; border: 0;" src="img/hireme.png" alt="Disponível para contratação. Clique e saiba mais!"></a>
+      	<img src="img/lucas.png" alt="Lucas Lopes Lemos - Engenheiro Mecatrônico" title="Lucas Lopes Lemos - Engenheiro Mecatrônico" />
+        <h1>Lucas Lopes Lemos</h1>
+		<h2>Engenheiro Mecatrônico<br /> M.Sc. em Sistemas Mecatrônicos e Micromecatrônicos</h2>
+        <p>
+        Meu objetivo profissional é propor soluções que facilitem as pessoas a desempenharem suas atividades com segurança e conforto. Gosto de descobrir maneiras inteligentes de resolver um problema e faço da expressão KISS (Keep It Simple Stupid!) parte da minha filosofia de vida. 
+        </p>
+        <a href="#about" class="btn btn-primary btn-lg">Descubra mais</a>
+      </div>
     </div>
-    <!--******************** Feature ********************-->
-    <div class="scrollblock">
-      <section id="feature">
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <article>
-                <p>We work to make web a beautiful place.</p>
-                <p>We craft beautiful designs and convert them into</p>
-                <p>fully functional and user-friendy web app.</p>
-              </article>
-            </div>
-            <!-- ./span12 -->
-          </div>
-          <!-- .row -->
-        </div>
-        <!-- ./container -->
-      </section>
-    </div>
-    <hr>
-    <!--******************** Portfolio Section ********************-->
-    <section id="portfolio" class="single-page scrollblock">
+    <!-- /Full Page Image Header Area -->
+  
+    <!-- Intro -->
+    <div id="about" class="intro">
       <div class="container">
-        <div class="align"><i class="icon-desktop-circled"></i></div>
-        <h1 id="folio-headline">Portfolio...</h1>
         <div class="row">
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Ethan Marcotte Design</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2><i class="fa fa-user section-icon"></i><br /> 
+            	Sobre mim</h2>
           </div>
-          <!-- /.span4 -->
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>A Book Apart</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
-          </div>
-          <!-- /.span4 -->
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="img/portfolio-03.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Four Rules for Designers</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
-          </div>
-          <!-- /.span4 -->
         </div>
-        <!-- /.row -->
+		<div class="row" style="margin-top: 15px">
+        	<div class="col-md-10 col-md-offset-1">
+				<p>Olá, me chamo Lucas, sou engenheiro mecatrônico graduado pela Universidade Federal de Uberlândia. Atualmente busco desafios na área projetos de sistemas de automação e supervisão de processos. Sou um profissional flexível, comunicativo, organizado e tenho foco nos objetivos.</p>
+				
+				<p>Possuo experiência profissional na elaboração de projetos de automação industrial e no desenvolvimento de sistemas de supervisão. Realizei trabalhos de pesquisa e desenvolvimento na área de microtecnologia em um importante instituto europeu. Recentemente trabalhei na automatização de sites e-commerce para o portal Buscapé.</p> 
+				
+				<p>Ainda, tenho uma <a href="#formacao">formação sólida e multidisciplinar</a>. Durante minha carreira acadêmica estudei em universidades do Brasil e da Europa.</p>
+				 
+				<p>Na horas vagas gosto de ver filmes, jogar bola, ler livros e noticías na internet. Viajar, tirar fotos com minha Nikon e folhear meus mangas em francês é o que mais alegra e me dá energia para seguir em frente. Além disso, tenho grande interesse por assuntos relacionados a projetos sustentáveis, inovação e novas tecnologias.</p>
+			  </div>
+			  
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+  
+    <!-- Services -->
+    <div id="formacao" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Formação sólida e multidisciplinar</h2>
+            <hr>
+          </div>
+        </div>
         
         <div class="row">
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-01.jpg" rel="prettyPhoto"><img src="img/portfolio-03.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Ethan Marcotte Design</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
-          </div>
-          <!-- /.span4 -->
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-02.jpg" rel="prettyPhoto"><img src="img/portfolio-01.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>A Book Apart</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
-          </div>
-          <!-- /.span4 -->
-          <div class="span4">
-            <div class="mask2"> <a href="img/portfolio-03.jpg" rel="prettyPhoto"><img src="img/portfolio-02.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Four Rules for Designers</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-            <!-- /.inside -->
-          </div>
-          <!-- /.span4 -->
+        	<div class="col-md-12">
+        		<p class="centro">Acredito que uma formação de excelência e multidisciplinar pode fazer a diferença na hora de enfrentar os problemas que o mercado nos propõem para resolver. Por isso, busco continuamente munir-me de informações sobre diferentes assuntos. Afinal, para quem só sabe usar martelo, todo problema é um prego.<br /><br /></p>
+        	</div>
         </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <hr>
-    <!--******************** Services Section ********************-->
-    <section id="services" class="single-page scrollblock">
-      <div class="container">
-        <div class="align"><i class="icon-cog-circled"></i></div>
-        <h1>Services</h1>
-        <!-- Four columns -->
+        
         <div class="row">
-          <div class="span3">
-            <div class="align"> <i class="icon-desktop sev_icon"></i> </div>
-            <h2>Web design</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <!-- /.span3 -->
-          <div class="span3">
-            <div class="align"> <i class="icon-vector sev_icon"></i> </div>
-            <h2>Print Design</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <!-- /.span3 -->
-          <div class="span3">
-            <div class="align"> <i class="icon-basket sev_icon"></i> </div>
-            <h2>Ecommerce</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <!-- /.span3 -->
-          <div class="span3">
-            <div class="align"> <i class="icon-mobile-1 sev_icon"></i> </div>
-            <h2>Marketing</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <!-- /.span3 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <hr>
-    <!--******************** Testimonials Section ********************-->
-    <section id="testimonials" class="single-page hidden-phone">
-      <div class="container">
-        <div class="row">
-          <div class="blockquote-wrapper">
-            <blockquote class="mega">
-              <div class="span4">
-                <p class="cite">John Doe &amp; Sons:</p>
-              </div>
-              <div class="span8">
-                <p class="alignright">"We highly appreciate the enthusiasm and creative talent of the people at Legend!"</p>
-              </div>
-            </blockquote>
-          </div>
-          <!-- /.blockquote-wrapper -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <hr>
-    <!--******************** News Section ********************-->
-    <section id="news" class="single-page scrollblock">
-      <div class="container">
-        <div class="align"><i class="icon-pencil-circled"></i></div>
-        <h1>Our Blog</h1>
-        <!-- Three columns -->
-        <div class="row">
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-01.jpg" alt="">
-            <div class="inside">
-              <p class="post-date"><i class="icon-calendar"></i> March 17, 2013</p>
-              <h2>A girl running on a road</h2>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
-            <!-- /.inside -->
-          </article>
-          <!-- /.span4 -->
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-02.jpg" alt="">
-            <div class="inside">
-              <p class="post-date">February 28, 2013</p>
-              <h2>A bear sleeping on a tree</h2>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
-            <!-- /.inside -->
-          </article>
-          <!-- /.span4 -->
-          <article class="span4 post"> <img class="img-news" src="img/blog_img-03.jpg" alt="">
-            <div class="inside">
-              <p class="post-date">February 06, 2013</p>
-              <h2>A Panda playing with his baby</h2>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. &hellip;</p>
-                <a href="#" class="more-link">read more</a> </div>
-            </div>
-            <!-- /.inside -->
-          </article>
-          <!-- /.span4 -->
-        </div>
-        <!-- /.row -->
-        <a href="#" class="btn btn-large">Go to our blog</a> </div>
-      <!-- /.container -->
-    </section>
-    <hr>
-    <!--******************** Team Section ********************-->
-    <section id="team" class="single-page scrollblock">
-      <div class="container">
-        <div class="align"><i class="icon-group-circled"></i></div>
-        <h1>Meet the team</h1>
-        <!-- Five columns -->
-        <div class="row">
-          <div class="span2 offset1">
-            <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-1.jpg" alt=""> </div>
-            <h3>Andrew</h3>
-            <div class="job-position">web designer</div>
-          </div>
-          <!-- ./span2 -->
-          <div class="span2">
-            <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-            <h3>Stephen</h3>
-            <div class="job-position">web developer</div>
-          </div>
-          <!-- ./span2 -->
-          <div class="span2">
-            <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-3.jpg" alt=""> </div>
-            <h3>Maria</h3>
-            <div class="job-position">graphic designer</div>
-          </div>
-          <!-- ./span2 -->
-          <div class="span2">
-            <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-4.jpg" alt=""> </div>
-            <h3>John</h3>
-            <div class="job-position">project manager</div>
-          </div>
-          <!-- ./span2 -->
-          <div class="span2">
-            <div class="teamalign"> <img class="team-thumb img-circle" src="img/portrait-2.jpg" alt=""> </div>
-            <h3>Ashton</h3>
-            <div class="job-position">real owner</div>
-          </div>
-          <!-- ./span2 -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="span10 offset1">
-            <hr class="featurette-divider">
-            <div class="featurette">
-              <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2>
-              <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-              <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-              <p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
-            </div>
-            <!-- /.featurette -->
-            <hr class="featurette-divider">
-          </div>
-          <!-- .span10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!--******************** Contact Section ********************-->
-    <section id="contact" class="single-page scrollblock">
-      <div class="container">
-        <div class="align"><i class="icon-mail-2"></i></div>
-        <h1>Contact us now!</h1>
-        <div class="row">
-          <div class="span12">
-            <div class="cform" id="theme-form">
-              <form action="#" method="post" class="cform-form">
-                <div class="row">
-                  <div class="span6"> <span class="your-name">
-                    <input type="text" name="your-name" placeholder="Your Name" class="cform-text" size="40" title="your name">
-                    </span> </div>
-                  <div class="span6"> <span class="your-email">
-                    <input type="text" name="your-email" placeholder="Your Email" class="cform-text" size="40" title="your email">
-                    </span> </div>
-                </div>
-                <div class="row">
-                  <div class="span6"> <span class="company">
-                    <input type="text" name="company" placeholder="Your Company" class="cform-text" size="40" title="company">
-                    </span> </div>
-                  <div class="span6"> <span class="website">
-                    <input type="text" name="website" placeholder="Your Website" class="cform-text" size="40" title="website">
-                    </span> </div>
-                </div>
-                <div class="row">
-                  <div class="span12"> <span class="message">
-                    <textarea name="message" class="cform-textarea" cols="40" rows="10" title="drop us a line."></textarea>
-                    </span> </div>
-                </div>
-                <div>
-                  <input type="submit" value="Send message" class="cform-submit pull-left">
-                </div>
-                <div class="cform-response-output"></div>
-              </form>
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-building-o"></i>
+              <h4>Gestão</h4>
             </div>
           </div>
-          <!-- ./span12 -->
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-cogs"></i>
+              <h4>Mecânica</h4>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-signal"></i>
+              <h4>Eletro-eletrônica</h4>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-laptop"></i>
+              <h4>Computação</h4>
+            </div>
+          </div>
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
-    </section>
-    <hr>
-    <div class="footer-wrapper">
-      <div class="container">
-        <footer>
-          <small>&copy; 2013 Inbetwin Network. All rights reserved.</small>
-        </footer>
-      </div>
-      <!-- ./container -->
     </div>
-    <!-- Loading the javaScript at the end of the page -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/site.js"></script>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout2">
+      <div class="vert-text">
+            <blockquote>
+              <h2>"Criatividade é inteligência, divertindo-se."</h2>
+              <small>Albert Einstein</small>
+        	</blockquote>
+      </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Curriculum -->
+    <div id="cv" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2><i class="fa fa-list section-icon"></i><br />Curriculum Vitae</h2>
+            <hr>
+          </div>
+        </div>
+        <div id="education" class="row">
+	          <div class="col-md-3">
+				<h3>Formação acadêmica</h3>
+			  </div>
+			  <div class="col-md-9">
+			  	<img src="img/logo-ufu.png" width="150" alt="Universidade Federal de Uberlândia" class="direita" />
+				<h4>Engenharia Mecatrônica. <small>Graduação</small></h4>
+				<h5>Abril/2007 - Setembro/2013.</h5>
+				<p class="university">Universidade Federal de Uberlândia, Uberlândia - MG.</p>
+				
+				<p>Principais tópicos estudados:</p>
+												
+				<ul>
+					<li>
+						<strong>Mecânica</strong>
+						<ul>
+							<li>Mecânica dos Fluídos</li>
+							<li>Termodinâmica e Transferência de Calor</li>
+							<li>Elementos e Dinâmica de Máquinas</li>
+							<li>Ciência dos Materiais</li>
+							<li>Resistência dos Materiais</li>
+							<li>Metrologia e Instrumentação</li>
+							<li><abbr title="Computer-Aided Design">CAD</abbr> / <abbr title="Computer-Aided Engineering">CAE</abbr> / <abbr title="Computer-Aided Manufacturing">CAM</abbr></li>
+							<li>Gestão de Sistemas de Produção</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Eletro-eletrônica</strong>
+						<ul>
+							<li>Eletrônica Analógica / Digital</li>
+							<li>Eletrônica de Potência</li>
+							<li>Instalações Eletétricas Industriais</li>
+							<li>Processamento Digital de Sinais</li>
+						</ul>
+					</li>
+					<li>
+						<strong>Computação</strong>
+						<ul>
+							<li>Algoritmo e Programação de Computadores</li>
+							<li>Estrutura e Banco de Dados</li>
+							<li>Organização de Computadores</li>
+							<li>Inteligência Artificial</li>
+							<li>Redes de Computadores</li>
+						</ul>
+					</li>
+					<li>Automação Industrial</li>
+					<li>Controle Hidráulico e Pneumático</li>
+					<li>Controle de Sistemas Lineares</li>
+					<li>Redes Industriais</li>
+					<li>Robótica</li>
+					
+				</ul>
+				
+				<p>Principais atividades desenvolvidas durante a graduação:</p>
+				
+				<ul>
+					<li><em><u>Iniciação científica (Metrologia):</u></em> elaboração de modelos para o cálculo da incerteza de medição e de procedimentos de calibração de paquímetros, micrômetros e relógios comparadores. Aprendi a trabalhar em equipe, a propor e seguir um planejamento e a me organizar para atingir objetivos estabelecidos.
+					</li>	
+					<li><em><u>Monitoria (Desenho Técnico):</u></em> auxiliei cerca de 20 alunos da Engenharia Mecatrônica a desenvolverem suas habilidades relacionadas a desenhos técnicos. Aperfeiçoei minha capacidade de comunicação com o público com esta atividade.<br /><br /></li>
+				</ul>
+				
+				<hr />
+				
+				<img src="img/logo-eu4m.png" alt="Erasmus Mundus Master of Science in Mechatronic and Micro-Mechatronic Systems" width="150" class="direita" />
+				<h4>Master of Science in Mechatronic and Micro-Mechatronic Systems. <small>Intercâmbio</small></h4>
+				<h5>Setembro/2010 - Julho/2012</h5>
+				<p>Programa de intercâmbio realizado em dois países da Europa com bolsa de estudos custeada pela União Europeia. Apenas 10 bolsas foram ofertadas a alunos de países em desenvolvimento de todo o mundo no edital em que participei.</p>
+				
+
+				<div class="well">
+					<h4>Primeiro ano do intercâmbio</h4>
+					<img src="img/logo-ensmm.png" alt="École Nationale Supérieure de Mécanique et des Microtechniques" width="120" class="direita" />
+					<p class="university">École Nationale Supérieure de Mécanique et des Microtechniques, Besançon, França.</p>
+					
+					<p>Principais tópicos estudados:</p>
+					<ul>
+						<li>Controle Avançado</li>
+						<li>Concepção Mecânica</li>
+						<li>Eletrônica Digital (<abbr title="Field-Programmable Gate Array">FPGA</abbr>)</li>
+						<li>Microcontroladores</li>
+						<li>Microfabricação</li>
+						<li>Programação Orientada à Objeto</li>
+						<li>Propriedade dos Materiais (Elasticidade)</li>
+					</ul>
+				</div>
+				
+				<div class="well">
+					<h4>Segundo ano do intercâmbio</h4>
+					<img src="img/logo-uniovi.png" alt="Universidad de Oviedo" width="120" class="direita" />
+					<p class="university">Universidad de Oviedo, Gijón, Espanha.</p>
+					
+					<p>Principais tópicos estudados:</p>
+					<ul>
+						<li>Automação Hidráulica e Pneumática</li>
+						<li>Ciclo de Vida de um Produto</li>
+						<li>Desenho, Análise e Fabricação de Sistemas Mecatrônicos</li>
+						<li>Eletrônica Analógica / Digital (Circuitos + <abbr title="Programmable Logic Device">PLD</abbr>)</li>
+						<li>Resistência dos Materiais (Fatiga)</li>
+						<li>Sensores e Acionadores</li>
+						<li>Sistemas Embarcados</li>
+					</ul>
+				</div>
+			  </div> 
+        </div>
+        <hr>
+        
+        <div id="experience" class="row">
+	          <div class="col-md-3">
+				<h3>Experiência profissional</h3>
+			  </div>
+			  <div class="col-md-9">
+			  	
+			  	<div class="well">
+			  		<img src="img/logo-zup.png" alt="Zup IT Innovation" class="direita" width="120" />
+					<h4>Zup IT Innovation (Zapos Tecnologia e Informação), Uberlândia  - MG.</h4>
+					<h5>Julho/2013 - Setembro/2013. <strong>Cargo:</strong> <u>Estagiário</u>.</h5>
+					<p>Atuação na automatização de sites e-commerce para o sistema de compras 1click do portal de comparação de preços Buscapé; participei do desenvolvimento de códigos em Java para cinco lojas virtuais. Apoiei atividades de operação, realizando a correção  de sistemas de automatização de sites que apresentavam problemas. Adquiri experiência no versionamento de projetos utilizando o Github e no tratamento de dependências com o Maven. Aperfeiçoei minha capacidade de trabalhar de forma flexível com ferramentas que eu não dominava e a desenvolver projetos em equipe.</p>
+				</div>
+				
+				<div class="well">
+					<img src="img/logo-prismann.png" alt="Prismann Automação Industrial" class="direita" width="120" />			
+					<h4>Prismann Automação Industrial, Araguari - MG.</h4>
+					<h5>Outubro/2012 - Fevereiro/2013. <strong>Cargo:</strong> <u>Estagiário</u>.</h5>
+					<p>Elaboração de projetos de automação de usinas de asfalto. Atuação no desenvolvimento de projetos elétricos em AutoCAD, de programas de supervisão (SCADA) escritos em Visual Basic e da programação de CLPs em linguagem LADDER. Acompanhamento da instalação, da calibração de transdutores e da realização testes dos sistemas propostos. Alcancei ganhos na minha capacidade de manter o foco nos objetivos e de lidar com diferentes idéias de maneira flexível.</p>
+				</div>
+				
+				<div class="well">
+					<img src="img/logo-femto.png" alt="Institut FEMTO-ST (Franche-Comté Electronique Mécanique Thermique et Optique - Sciences et Technologies)" class="direita" width="120" />			
+					<h4>FEMTO-ST - Departamento AS2M, Besançon, França.</h4>
+					<h5>Fevereiro/2012 - Julho/2012. <strong>Cargo:</strong> <u>Estagiário</u>.</h5>
+					<p>Desenvolvimento de um sistema de medição de microforças por visão. Este será utilizado para a calibração de microrrobôs e o seu principal diferencial em relação ao que existe no mercado é a alta razão entre faixa de medição e resolução (10<sup>5</sup> para o sistema proposto e de 10<sup>3</sup> para a maioria dos sensores de microforça disponíveis no mercado). Elaborei a plataforma de medição a partir de um projeto feito no SolidWorks, desenvolvi o software no Visual Studio (C++) e no Matlab/Simulink e criei circuitos eletrônicos utilizando o Eagle CadSoft. Com este trabalho eu melhorei o meu senso de organização, de expressão em francês e inglês e aprendi a trabalhar com pessoas de diferentes países, culturas e formas de pensar.</p>
+					
+					<p class="direita"><a href="http://www.flickr.com/photos/llopesle/sets/72157638582393046/" target="_blank" title="Veja fotos do projeto no Flickr"><strong><i class="fa fa-camera"></i> Veja fotos do projeto</strong></a></p>
+					
+				</div>
+				
+			  </div> 
+        </div>
+        <hr>
+        
+        <div id="languages" class="row">
+	          <div class="col-md-3">
+				<h3>Idiomas</h3>
+			  </div>
+			  <div class="col-md-9">
+				<h4>Inglês - <small>Fluente.</small></h4>
+				<h4>Espanhol - <small>Fluente.</small></h4>
+				<h4>Francês - <small>Fluente.</small></h4>
+			  </div>
+        </div>
+        <hr>
+        
+        <div id="skills" class="row">
+	          <div class="col-md-3">
+				<h3>Conhecimentos técnicos</h3>
+			  </div>
+			  <div class="col-md-9">
+				<h4>Softwares</h4>
+				<p><br />
+					SolidWorks (Avançado), AutoCAD (Avançado),  CATIA V5 (Avançado),  Matlab/Simulink (Avançado), Microsoft Visual Studio (Avançado), Eclipse (Avançado), Eagle CadSoft (Intermediário), Proteus (Avançado), MPLAB (Avançado), Eclipse SCADA (Intermediário),Pacote Microsoft Office (Avançado), Windows XP/7/8 (Avançado), Linux (Intermediário).
+				</p>
+				
+				<h4>Linguagens de Programação</h4>
+				<p><br />
+					C/C++ (Avançado), LADDER (Avançado), Matlab (Avançado), Visual Basic (Intermediário), Java (Intermediário), C para microcontroladores (Avançado), Assembly (Avançado), VHDL (Avançado), HTML & CSS (Intermediário).
+				</p>
+			  </div>
+        </div>
+        <hr>
+        
+        <div class="row">
+        	<div class="col-md-12">
+        		<h4 style="text-align: center">
+        			<a href="files/cv_lucasllemos.pdf" target="_blank" title="Donwload do Curriculum em PDF">
+        				<i class="fa fa-download"></i><br />
+        				Donwload em PDF
+        		    </a>
+        		</h4>
+        	</div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- /Curriculum -->
+
+	<!-- Call to Action -->
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>Inovação e foco do cliente: palavras-chave para uma estratégia de negócio bem sucedida.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
     
-    <!--ANALYTICS CODE-->
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-29231762-1']);
-	  _gaq.push(['_setDomainName', 'dzyngiri.com']);
-	  _gaq.push(['_trackPageview']);
+    <!-- Pub -->
+    <div id="pub" class="contact">
+	    <div class="container">
+	    	
+	    	<div class="row">
+	          <div class="col-md-4 col-md-offset-4 text-center">
+	            <h2><i class="fa fa-file-text section-icon"></i><br />Publicações</h2>
+	            <hr>
+	          </div>
+	        </div>
+	    	
+	    	<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<ol style="padding-bottom: 30px;">
+						<li>J. G. Zea, G. Laurent, P. Sandoz, <strong>L. L. Lemos</strong>, e C. Clévy. <em>Twin-scale vernier micro-pattern for visual measurement of 1d in-plane absolute displacements with increased rangeto-resolution ratio</em>. International Symposium on Optomechatronic Technologies (ISOT'2012), Paris, França, 2013.
+							<a href="files/Galeano2013Twin.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Inglês)</a>
+						</li>
+
+						<li><strong>L. L. Lemos</strong>. <em>Mésure de micro-force par vision</em>. Master Thesis - EU4M : EUropean Master in Mechatronics and MicroMechatronics Systems, Besançon, França, 2012. <em>(Medição de microforça por visão).</em> <a href="files/Lemos2012Mesure.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Francês)</a>
+						</li>
+						
+						<li>R. V. Arencibia, C. C. Souza, <strong>L. L. Lemos</strong>, M. A. F. de Moraes, e A. O. Diniz. <em>Teoria para as aulas práticas de metrologia</em>. Universidade Federal de Uberlândia, Uberlândia, Brasil, 2011.</li>
+							
+						<li>M. A. F. de Moraes, C. C. Souza, L. L. Lemos, e R. V. Arencibia. <em>Calibración del comparador de carátula utilizando una máquina de medición universal</em>. VI Conferencia Internacional de Ingeniería Mecánica, Santa Clara, Cuba, 2010. <a href="files/Moraes2010Calibracion.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Espanhol)</a></li>
+						
+						<li>M. A. F. de Moraes, C. C. Souza, <strong>L. L. Lemos</strong>, e R. V. Arencibia. <em>Calibração de relógio comparador com máquina universal</em>. XVII Congresso Nacional de Estudantes de Engenharia Mecânica, Viçosa, Brasil, 2010.</li>
+						
+						<li>A. O. Diniz, C. C. Souza, <strong>L. L. Lemos</strong>, e R. V. Arencibia. <em>Influência do tamanho amostral no resultado das medições</em>. XI Semana de Engenharia Mecânica e Mecatrônica, Uberlândia, Brasil, 2009. <a href="files/Diniz2009Influencia.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Português)</a></li>
+						
+						<li><strong>L. L. Lemos</strong>, M. A. F. de Moraes, C. C. Souza, e R. V. Arencibia. <em>Modelagem matemática dos processos de medição utilizando paquímetro</em>. XI Semana de Engenharia Mecânica e Mecatrônica, Uberlândia, Brasil, 2009. <a href="files/Lemos2009Modelagem.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Português)</a></li>
+						
+						<li>C. C. Souza, <strong>L. L. Lemos</strong>, M. A. F. de Moraes, e R. V. Arencibia. <em>Efeitos térmicos na incerteza de medição com paquímetro</em>. XVI Congresso Nacional de Estudantes de Engenharia Mecânica, Florianópolis, Brasil, 2009. <a href="files/Souza2009Efeitos.pdf" target="_blank"> <i class="fa fa-download"></i> (PDF, Português)</a></li>
+						
+						<li><strong>L. L. Lemos</strong>, C. C. Souza, e R. V. Arencibia. <em>Procedimento de calibração do relógio comparador</em>. Universidade Federal de Uberlândia, Uberlândia, Brasil, 2009.</li>
+						
+						<li>C. C. Souza, <strong>L. L. Lemos</strong>, M. A. F. de Moraes, e R. V. Arencibia. <em>Procedimento de calibração do micrômetro para medições externas</em>. Universidade Federal de Uberlândia, Uberlândia, Brasil, 2009.</li>
+							
+						<li>M. A. F. de Moraes, <strong>L. L. Lemos</strong>, C. C. Souza, e R. V. Arencibia. <em>Procedimento de calibração do paquímetro quadrimensional</em>. Universidade Federal de Uberlândia, Uberlândia, Brasil, 2009.</li>
+						
+					</ol>					
+				</div>
+			</div>
+			
+	    </div>
+	</div>
+	<!-- /Pub -->
+    
+    
+    
+    <!-- Callout -->
+    <div class="callout">
+      
+      <div class="vert-text" style="width: 50%;">
+      	<h2>"Não me deixarei levar pelo brilho excessivo da tecnologia (...)"</h2>
+      </div>
+             
+    </div>
+    <!-- /Callout -->
+
+    <!-- Contact -->
+    <div id="contact" class="contact">
+	    <div class="container">
+	    	
+	    	<div class="row">
+	          <div class="col-md-4 col-md-offset-4 text-center">
+	            <h2><i class="fa fa-envelope section-icon"></i><br />Contato</h2>
+	            <hr>
+	          </div>
+	        </div>
+			
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+		            <div class="panel panel-success">
+			              <div class="panel-heading">
+			                <h3 class="panel-title"><i class="fa fa-certificate"></i> Disponível para contratação.</h3>
+			              </div>
+			              <div class="panel-body">
+			                <p>Atualmente estou à procura de posições na área de projetos de automação e supervisão industrial em empresas que me proporcionem crescimento pessoal e profissional. Envie-me uma mensagem e descubra como posso contribuir para o crescimento de seu empreendimento!</p>
+			              </div>
+			        </div>
+				</div>
+			</div>
+				    	
+	    	<div class="row">
+				<div class="col-md-6">
+					<h4>Onde moro?</h4>
+					
+					<div class="address-lines indent" style="padding-top: 10px; padding-bottom: 10px;">
+						<p><i class="fa fa-home"></i>  Uberlândia - MG, Brasil</p>
+					</div>
+					
+					<iframe class="g-map" src="https://maps.google.com.br/maps?oe=utf-8&amp;client=firefox-a&amp;q=uberlandia&amp;ie=UTF8&amp;hq=&amp;hnear=Uberl%C3%A2ndia,+Minas+Gerais&amp;gl=br&amp;t=m&amp;z=9&amp;ll=-19.046925,-48.319028&amp;output=embed"></iframe>			
+					
+				</div>
 	
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+				<div class="col-md-6">
+					<h4>Entre em contato comigo!</h4>					
+					<div class="address-lines indent" style="padding-top: 10px; padding-bottom: 10px;">
+						<p><i class="fa fa-phone-square"></i>  +55 34 9139-6023</p>
+						<p><i class="fa fa-envelope"></i> lucas.lemos@yahoo.com / contact@lucaslemos.com  </p>	 
+					</div>
+					
+					<h4>Também estou no...</h4>
+					<div class="centro" style="padding-top: 20px; padding-bottom: 10px;">
+						<ul class="list-inline social">
+			              <li class="linkedin"><a href="http://br.linkedin.com/in/lucasllemos/pt" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+			              <li class="facebook"><a href="http://www.facebook.com/lucas.lopes.88" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
+			              <li class="flickr"><a href="http://www.flickr.com/photos/llopesle/" target="_blank"><i class="fa fa-flickr fa-3x"></i></a></li>
+			              <li class="github"><a href="http://github.com/llopesle" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+			            </ul>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+	    </div>
+	</div>
+	<!-- /Contact -->
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-arrow-circle-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>This is the end... Hope see you soon! Copyright &copy; Lucas Lopes Lemos.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-46394302-1', 'lucaslemos.com');
+	  ga('send', 'pageview');
+
 	</script>
-    </body>
-    </html>
+	
+  </body>
+
+</html>

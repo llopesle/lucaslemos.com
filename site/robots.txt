@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Allow: /files
+Disallow: /css
+Disallow: /img
+Disallow: /js
+Disallow: /fonts
+Disallow: /font-awesome
